@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'; // Looking for an export from the node_module library e.g. JavaScript file (being the library itself)
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Application from './Application';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Application />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
